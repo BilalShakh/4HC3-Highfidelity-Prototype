@@ -1,0 +1,614 @@
+/* screen - login-page */
+
+.login-page {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  overflow: hidden;
+  width: 375px;
+}
+
+.login-page .i-os-status-bar-with-notch {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  gap: 21px;
+  height: 44px;
+  padding: 0 15px;
+  width: 375px;
+}
+
+.login-page .time {
+  align-self: center;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  margin-left: 17px;
+  margin-top: 1.0px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.login-page .overlap-group1 {
+  height: 31px;
+  position: relative;
+  width: 282px;
+}
+
+.login-page .notch {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 219px;
+}
+
+.login-page .i-os-icon-status-bar {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 2px;
+  left: 217px;
+  position: absolute;
+  top: 15px;
+  width: fit-content;
+}
+
+.login-page .i-os-icon-small-mobile-signal {
+  border: 1px none;
+  height: 16px;
+  min-width: 20px;
+  position: relative;
+}
+
+.login-page .icon {
+  height: 11px;
+  left: 1px;
+  position: absolute;
+  top: 3px;
+  width: 17px;
+}
+
+.login-page .i-os-icon-small-wifi {
+  border: 1px none;
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.login-page .icon-signal {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 15px;
+}
+
+.login-page .i-os-icon-small-battery {
+  height: 16px;
+  min-width: 25px;
+}
+
+.login-page .chevron-left {
+  align-self: flex-start;
+  height: 24px;
+  margin-left: 12px;
+  margin-top: 4px;
+  width: 24px;
+}
+
+.login-page .oot-w-text {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-right: 1.0px;
+  margin-top: 15px;
+  min-height: 120px;
+  width: 254px;
+}
+
+.login-page .oot-no-text-1 {
+  height: 94px;
+  margin-right: 0.68px;
+  object-fit: cover;
+  width: 182px;
+}
+
+.login-page .out-of-town {
+  letter-spacing: 0.37px;
+  line-height: 41px;
+  margin-bottom: -19px;
+  min-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 254px;
+}
+
+.login-page .group-57 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14.0px;
+  margin-top: 64px;
+  min-height: 376px;
+  width: 269px;
+}
+
+.login-page .user-name-or-email {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  white-space: nowrap;
+}
+
+.login-page .i-os-input-text-disabled {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  margin-top: 8px;
+  min-width: 255px;
+}
+
+.login-page .i-os-input-text-disabled-1 {
+  align-items: flex-start;
+  background-color: var(--cultured-pearl);
+  border: 1px solid;
+  border-color: var(--star-dust);
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  min-width: 255px;
+  padding: 9px 15px;
+}
+
+.login-page .johndoeemailcom {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  white-space: nowrap;
+}
+
+.login-page .password {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  margin-top: 17px;
+  white-space: nowrap;
+}
+
+.login-page .text-13 {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  white-space: nowrap;
+}
+
+.login-page .forgot-password {
+  align-self: center;
+  color: #5b5b5b;
+  font-family: var(--font-family-poppins-light);
+  font-size: 11px;
+  font-weight: 300;
+  height: 13px;
+  letter-spacing: 0;
+  line-height: 13.2px;
+  margin-right: 15.0px;
+  margin-top: 19px;
+  min-width: 96px;
+  white-space: nowrap;
+}
+
+.login-page .overlap-group4 {
+  align-items: flex-end;
+  background-color: #24b483;
+  border-radius: 5px;
+  display: flex;
+  height: 39px;
+  margin-top: 18px;
+  min-width: 255px;
+  padding: 10px 107px;
+}
+
+.login-page .login-1 {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  min-width: 40px;
+  white-space: nowrap;
+}
+
+.login-page .overlap-group2 {
+  height: 27px;
+  margin-top: 14px;
+  position: relative;
+  width: 255px;
+}
+
+.login-page .line-14 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 255px;
+}
+
+.login-page .rectangle-21 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 27px;
+  left: 113px;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.login-page .or {
+  height: 18px;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+}
+
+.login-page .overlap-group5 {
+  align-items: center;
+  background-color: var(--froly);
+  border-radius: 5px;
+  display: flex;
+  gap: 49px;
+  height: 35px;
+  margin-top: 13px;
+  min-width: 255px;
+  padding: 5.8px 36px;
+}
+
+.login-page .vector {
+  align-self: flex-end;
+  height: 23px;
+  width: 22px;
+}
+
+.login-page .login {
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  margin-top: 1.0px;
+  min-width: 40px;
+  white-space: nowrap;
+}
+
+.login-page .overlap-group3 {
+  align-items: center;
+  background-color: #166ec7;
+  border-radius: 5px;
+  display: flex;
+  gap: 49px;
+  height: 35px;
+  margin-top: 14px;
+  min-width: 255px;
+  padding: 0 36px;
+}
+
+.login-page .icon-facebook {
+  height: 21px;
+  width: 22px;
+}
+
+.login-page .dont-have-an-account-already {
+  color: #767676;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  margin-right: 1.0px;
+  margin-top: 66px;
+  min-width: 240px;
+  white-space: nowrap;
+}
+
+.login-page .flex-row {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  margin-left: 18.5px;
+  margin-top: 13px;
+  min-width: 138px;
+}
+
+.login-page .create-account {
+  color: var(--black);
+  font-family: var(--font-family-poppins-medium);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  height: 18px;
+  letter-spacing: 0;
+  line-height: 18.0px;
+  min-width: 119px;
+  white-space: nowrap;
+}
+
+.login-page .vector-container {
+  height: 13px;
+  margin-top: 2.0px;
+  position: relative;
+  width: 13px;
+}
+
+.login-page .vector-4 {
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.login-page .vector-5 {
+  height: 13px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 7px;
+}
+
+.login-page .home-page-current-location {
+  align-items: flex-end;
+  align-self: flex-end;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  margin-right: -415px;
+  margin-top: 153px;
+  overflow: hidden;
+  width: 375px;
+}
+
+.login-page .menu-rounded {
+  height: 30px;
+  margin-right: -275px;
+  margin-top: -2376px;
+  width: 30px;
+}
+
+.login-page .compass {
+  height: 30px;
+  margin-right: -583px;
+  margin-top: 21px;
+  width: 30px;
+}
+
+.login-page .navigation {
+  height: 30px;
+  margin-right: -275px;
+  margin-top: 416px;
+  width: 30px;
+}
+
+.login-page .i-os-status-bar-with-notch-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  height: 44px;
+  margin-top: 1849px;
+  overflow: hidden;
+  width: 375px;
+}
+
+.login-page .time-1 {
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  margin-left: 32px;
+  margin-top: 1.0px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.login-page .i-os-icon-status-bar-1 {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 2px;
+  margin-left: 238px;
+  margin-top: 2.0px;
+  width: fit-content;
+}
+
+.login-page .icon-1 {
+  height: 11px;
+  left: 308px;
+  position: absolute;
+  top: -2439px;
+  width: 17px;
+}
+
+.login-page .icon-2 {
+  height: 11px;
+  left: 285px;
+  position: absolute;
+  top: -2439px;
+  width: 15px;
+}
+
+.login-page .i-os-icon-small-battery-1 {
+  height: 16px;
+  margin-right: -307.00px;
+  margin-top: -2442.00px;
+  min-width: 25px;
+}
+
+.login-page .notch-1 {
+  align-self: flex-start;
+  height: 30px;
+  margin-left: 320px;
+  margin-top: -2429px;
+  width: 219px;
+}
+
+.login-page .search {
+  align-items: center;
+  background-color: #fafafaed;
+  border: 1px none;
+  border-radius: 10px;
+  display: flex;
+  height: 36px;
+  margin-right: 19px;
+  margin-top: 7px;
+  padding: 8px;
+  width: 299px;
+}
+
+.login-page .magnifyingglass {
+  border: 0.64px none;
+  height: 28px;
+  margin-bottom: -4.00px;
+  margin-top: -4.00px;
+  min-width: 28px;
+  position: relative;
+}
+
+.login-page .magnifyingglass-1 {
+  height: 28px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32.1px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 28px;
+}
+
+.login-page .placeholder-label {
+  color: var(--ship-gray);
+  flex: 1;
+  font-family: var(--font-family-boogaloo-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-top: -2.00px;
+  white-space: nowrap;
+}
+
+.login-page .markers-current-location-marker {
+  align-items: flex-start;
+  align-self: center;
+  border: 0px none;
+  display: flex;
+  margin-right: 1.0px;
+  margin-top: 230px;
+  min-width: 24px;
+}
+
+.login-page .maps-markers-current-location-marker {
+  align-items: center;
+  background-color: var(--cornflower-blue);
+  border: 0px none;
+  border-radius: 12px;
+  display: flex;
+  height: 24px;
+  min-width: 24px;
+  padding: 0 5px;
+}
+
+.login-page .ellipse {
+  background-color: var(--cornflower-blue-2);
+  border: 2px solid;
+  border-color: var(--white);
+  border-radius: 7px;
+  box-shadow: 0px 1px 6px #00000026;
+  height: 14px;
+  width: 14px;
+}
+
+.login-page .controls-zoom-controls {
+  align-items: flex-end;
+  background-color: var(--white);
+  border: 0px none;
+  border-radius: 2px;
+  box-shadow: 0px 1px 3px #00000033;
+  display: flex;
+  flex-direction: column;
+  margin-right: 21px;
+  margin-top: 184px;
+  min-height: 53px;
+  width: 28px;
+}
+
+.login-page .union {
+  height: 10px;
+  margin-right: -267px;
+  margin-top: -2944px;
+  width: 10px;
+}
+
+.login-page .union-1 {
+  height: 2px;
+  margin-right: -267px;
+  margin-top: 21px;
+  width: 10px;
+}
+
+.login-page .rectangle-2 {
+  background-color: var(--celeste);
+  border: 1px none;
+  height: 1px;
+  margin-right: 4px;
+  margin-top: 2937px;
+  width: 20px;
+}
+
+.login-page .overlap-group {
+  border-radius: 31px;
+  height: 261px;
+  margin-top: 21px;
+  position: relative;
+  width: 375px;
+}
+
+.login-page .bottom-drawer {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 31px;
+  display: flex;
+  height: 261px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 375px;
+  position: absolute;
+  top: 0;
+}
+
+.login-page .line-1 {
+  height: 1px;
+  margin-top: -2216px;
+  width: 375px;
+}
+
+.login-page .tap-attractions-nearby {
+  color: var(--black);
+  font-family: var(--font-family-boogaloo-regular);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  left: 33px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+  width: 186px;
+}

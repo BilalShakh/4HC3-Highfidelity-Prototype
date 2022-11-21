@@ -1,0 +1,509 @@
+/* screen - devil-s-punchbowl */
+
+.devil-s-punchbowl {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 812px;
+  width: 375px;
+}
+
+.devil-s-punchbowl .i-os-status-bar-with-notch {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 21px;
+  height: 44px;
+  padding: 0 15px;
+  width: 375px;
+}
+
+.devil-s-punchbowl .time {
+  align-self: center;
+  letter-spacing: -0.32px;
+  line-height: 21px;
+  margin-left: 17px;
+  margin-top: 1.0px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .overlap-group-1 {
+  height: 31px;
+  position: relative;
+  width: 282px;
+}
+
+.devil-s-punchbowl .notch {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 219px;
+}
+
+.devil-s-punchbowl .i-os-icon-status-bar {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  gap: 2px;
+  left: 217px;
+  position: absolute;
+  top: 15px;
+  width: fit-content;
+}
+
+.devil-s-punchbowl .i-os-icon-small-mobile-signal {
+  border: 1px none;
+  height: 16px;
+  min-width: 20px;
+  position: relative;
+}
+
+.devil-s-punchbowl .icon {
+  height: 11px;
+  left: 1px;
+  position: absolute;
+  top: 3px;
+  width: 17px;
+}
+
+.devil-s-punchbowl .i-os-icon-small-wifi {
+  border: 1px none;
+  height: 16px;
+  min-width: 16px;
+  position: relative;
+}
+
+.devil-s-punchbowl .icon-signal {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 3px;
+  width: 15px;
+}
+
+.devil-s-punchbowl .i-os-icon-small-battery {
+  height: 16px;
+  min-width: 25px;
+}
+
+.devil-s-punchbowl .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 25px;
+  margin-right: 3.0px;
+  margin-top: 3px;
+  min-width: 348px;
+}
+
+.devil-s-punchbowl .chevron-left {
+  align-self: flex-end;
+  height: 24px;
+  width: 24px;
+}
+
+.devil-s-punchbowl .devils-punchbowl {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-left: 66px;
+  min-width: 171px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .group-41 {
+  align-items: flex-end;
+  align-self: center;
+  background-color: var(--bittersweet);
+  border-radius: 10px;
+  display: flex;
+  height: 20px;
+  margin-bottom: 1.0px;
+  margin-left: 67px;
+  min-width: 20px;
+  padding: 4.1px 4px;
+}
+
+.devil-s-punchbowl .icon-heart {
+  height: 11px;
+  width: 12px;
+}
+
+.devil-s-punchbowl .mask-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 15px;
+  margin-left: 3.0px;
+  margin-top: 20px;
+  min-width: 342px;
+}
+
+.devil-s-punchbowl .mask-group {
+  height: 137px;
+  width: 104px;
+}
+
+.devil-s-punchbowl .group-38 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  height: 22px;
+  margin-left: 18px;
+  margin-top: 15px;
+  min-width: 143px;
+}
+
+.devil-s-punchbowl .icon-star {
+  height: 20px;
+  width: 20px;
+}
+
+.devil-s-punchbowl .text-12 {
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  min-width: 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .x312-reviews {
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-left: 7px;
+  min-width: 92px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .group-44 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left: 9.0px;
+  margin-top: 11px;
+  min-height: 159px;
+  width: 344px;
+}
+
+.devil-s-punchbowl .about {
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  min-width: 50px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .lorem-ipsum-dolor-si {
+  color: #575757;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  min-height: 131px;
+  width: 340px;
+}
+
+.devil-s-punchbowl .group-43 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 5.0px;
+  margin-top: 11px;
+  min-width: 344px;
+}
+
+.devil-s-punchbowl .overlap-group2 {
+  height: 50px;
+  position: relative;
+  width: 340px;
+}
+
+.devil-s-punchbowl .directions {
+  left: 0;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .overlap-group1 {
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 340px;
+}
+
+.devil-s-punchbowl .ridge-rd-stoney-creek-on-l8-j-2-x4 {
+  color: #575757;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+  width: 340px;
+}
+
+.devil-s-punchbowl .ellipse-10 {
+  background-color: #3988ff;
+  border: 1px none;
+  border-radius: 18px;
+  height: 36px;
+  left: 301px;
+  position: absolute;
+  top: 0;
+  width: 36px;
+}
+
+.devil-s-punchbowl .corner-up-right {
+  height: 24px;
+  left: 307px;
+  position: absolute;
+  top: 6px;
+  width: 24px;
+}
+
+.devil-s-punchbowl .reviews {
+  align-self: flex-start;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-left: 18px;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  gap: 11px;
+  margin-right: 2.0px;
+  margin-top: 7px;
+  min-width: 337px;
+}
+
+.devil-s-punchbowl .group {
+  align-items: flex-end;
+  background-color: var(--mist-gray);
+  border-radius: 20.5px;
+  display: flex;
+  height: 41px;
+  min-width: 41px;
+  padding: 1.5px;
+}
+
+.devil-s-punchbowl .profile_picture-utsharga-rozario-win-2 {
+  height: 38px;
+  object-fit: cover;
+  width: 38px;
+}
+
+.devil-s-punchbowl .i-os-input-text-disabled {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  min-width: 285px;
+}
+
+.devil-s-punchbowl .i-os-input-text-disabled-1 {
+  align-items: flex-start;
+  background-color: var(--cultured-pearl);
+  border: 1px solid;
+  border-color: var(--star-dust);
+  border-radius: 4px;
+  display: flex;
+  height: 40px;
+  min-width: 285px;
+  padding: 9px 15px;
+}
+
+.devil-s-punchbowl .write-review {
+  color: var(--star-dust);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-weight: 400;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 14.4px;
+  width: 255px;
+}
+
+.devil-s-punchbowl .line-15 {
+  height: 1px;
+  margin-right: 2.0px;
+  margin-top: 11px;
+  object-fit: cover;
+  width: 337px;
+}
+
+.devil-s-punchbowl .group-53 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.0px;
+  margin-top: 6px;
+  min-height: 76px;
+  width: 343px;
+}
+
+.devil-s-punchbowl .group-container {
+  align-items: center;
+  display: flex;
+  gap: 11px;
+  min-width: 341px;
+}
+
+.devil-s-punchbowl .group-45 {
+  align-items: flex-end;
+  background-color: var(--mist-gray);
+  border-radius: 20.5px;
+  display: flex;
+  height: 41px;
+  min-width: 41px;
+}
+
+.devil-s-punchbowl .profile_picture-utsharga-rozario-win-2-1 {
+  height: 46px;
+  margin-bottom: -6.5px;
+  margin-left: -3px;
+  object-fit: cover;
+  width: 46px;
+}
+
+.devil-s-punchbowl .overlap-group {
+  height: 36px;
+  margin-top: 1.0px;
+  position: relative;
+  width: 289px;
+}
+
+.devil-s-punchbowl .group-51 {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  left: 0;
+  min-width: 289px;
+  position: absolute;
+  top: 0;
+}
+
+.devil-s-punchbowl .priyansh-shah {
+  align-self: center;
+  height: 14px;
+  letter-spacing: 0;
+  line-height: 14.4px;
+  margin-bottom: 2.0px;
+  min-width: 85px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .icon-star-1 {
+  height: 20px;
+  margin-left: 170px;
+  width: 20px;
+}
+
+.devil-s-punchbowl .number {
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  margin-left: 2px;
+  min-width: 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .address {
+  left: 0;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  position: absolute;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .address-1 {
+  left: 234px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  position: absolute;
+  text-align: right;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .goated-location-i {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxs);
+  font-weight: 400;
+  height: 35px;
+  letter-spacing: -0.41px;
+  line-height: 15px;
+  width: 337px;
+}
+
+.devil-s-punchbowl .line-16 {
+  height: 1px;
+  margin-right: 2.0px;
+  margin-top: 7px;
+  object-fit: cover;
+  width: 337px;
+}
+
+.devil-s-punchbowl .group-54 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.0px;
+  margin-top: 8px;
+  min-height: 76px;
+  width: 343px;
+}
+
+.devil-s-punchbowl .talha-asif {
+  align-self: center;
+  height: 14px;
+  letter-spacing: 0;
+  line-height: 14.4px;
+  margin-bottom: 2.0px;
+  min-width: 58px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .icon-star-2 {
+  height: 20px;
+  margin-left: 197px;
+  width: 20px;
+}
+
+.devil-s-punchbowl .address-2 {
+  left: 220px;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  position: absolute;
+  text-align: right;
+  top: 14px;
+  white-space: nowrap;
+}
+
+.devil-s-punchbowl .love-this-place-al {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxs);
+  font-weight: 400;
+  height: 35px;
+  letter-spacing: -0.41px;
+  line-height: 15px;
+  width: 337px;
+}
