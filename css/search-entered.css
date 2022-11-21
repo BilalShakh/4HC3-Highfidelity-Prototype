@@ -33,6 +33,10 @@
   width: 30px;
 }
 
+.search-entered .x:hover {
+  cursor: pointer;
+}
+
 .search-entered .controls-zoom-controls {
   align-items: center;
   background-color: var(--white);

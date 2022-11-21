@@ -25,6 +25,10 @@
   width: 375px;
 }
 
+.search-hamil .x:hover {
+  cursor: pointer;
+}
+
 .search-hamil .menu-rounded {
   height: 30px;
   left: 17px;
