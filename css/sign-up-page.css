@@ -147,6 +147,12 @@
   position: absolute;
   top: 255px;
   width: 255px;
+  z-index: 99;
+}
+
+.sign-up-page .rectangle-20:hover {
+  background-color: #7c6292;
+  cursor: pointer;
 }
 
 .sign-up-page .sign-up {
@@ -157,6 +163,7 @@
   position: absolute;
   top: 265px;
   white-space: nowrap;
+  z-index: 100;
 }
 
 .sign-up-page .line-14 {
@@ -278,6 +285,17 @@
   margin-top: 116px;
   min-width: 255px;
   padding: 5px 36px;
+}
+
+
+.sign-up-page .overlap-group2:hover {
+  background-color: #e9a1a1;
+  cursor: pointer;
+}
+
+.sign-up-page .overlap-group1:hover {
+  background-color: #3d7fc0;
+  cursor: pointer;
 }
 
 .sign-up-page .vector {

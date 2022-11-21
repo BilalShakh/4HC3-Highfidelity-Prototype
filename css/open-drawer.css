@@ -404,6 +404,15 @@
   padding: 8px 44px;
 }
 
+.open-drawer .overlap-group-1:hover {
+  cursor: pointer;
+  background-color: #eb9c9c;
+}
+
+.open-drawer .vector-1:hover {
+  cursor: pointer;
+}
+
 .open-drawer .log-out {
   color: #fcfcfc;
   font-family: var(--font-family-poppins);
@@ -422,4 +431,33 @@
   position: absolute;
   top: 476px;
   width: 24px;
+}
+
+.open-drawer .text-list {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.open-drawer .text-item {
+  width: 100%;
+}
+
+.open-drawer .text-item-div {
+  height: 22px !important;
+  position: inherit;
+  margin-bottom: 1.5em;
+  height: fit-content;
+}
+
+.open-drawer .text-item-div:hover {
+  cursor: pointer;
+}
+
+.open-drawer .icon-settings:hover {
+  cursor: pointer;
+}
+
+.open-drawer .text-item-Settings {
+  margin-top: 8.5em;
+  width: 100%;
 }

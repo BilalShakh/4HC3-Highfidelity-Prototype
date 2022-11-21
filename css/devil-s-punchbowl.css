@@ -507,3 +507,23 @@
   line-height: 15px;
   width: 337px;
 }
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.bottom-drawer:hover {
+  cursor: pointer;
+}
+
+.chevron-left:hover {
+  cursor: pointer;
+}

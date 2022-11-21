@@ -100,6 +100,15 @@
   width: 24px;
 }
 
+.login-page .chevron-left:hover {
+  cursor: pointer;
+}
+
+.create-account:hover, .vector-container:hover {
+  cursor: pointer;
+}
+
+
 .login-page .oot-w-text {
   align-items: center;
   border: 1px none;
@@ -214,6 +223,11 @@
   padding: 10px 107px;
 }
 
+.login-page .overlap-group4:hover {
+  background-color: #5cc2a0;
+  cursor: pointer;
+}
+
 .login-page .login-1 {
   height: 18px;
   letter-spacing: 0;
@@ -268,6 +282,16 @@
   margin-top: 13px;
   min-width: 255px;
   padding: 5.8px 36px;
+}
+
+.login-page .overlap-group3:hover {
+  background-color: #4485c5;
+  cursor: pointer;
+}
+
+.login-page .overlap-group5:hover {
+  background-color: #e4acac;
+  cursor: pointer;
 }
 
 .login-page .vector {

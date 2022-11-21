@@ -74,6 +74,26 @@
   white-space: nowrap;
 }
 
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.icon-close:hover {
+  cursor: pointer;
+}
+
+.menu-rounded:hover {
+  cursor: pointer;
+}
+
 .home-page-hamilton .controls-zoom-controls {
   align-items: center;
   background-color: var(--white);
@@ -435,6 +455,10 @@
   position: absolute;
   top: 0;
   width: 120px;
+}
+
+*[class^="group-container"]:hover {
+  cursor: pointer;
 }
 
 .home-page-hamilton .overlap-group2 {

@@ -10,6 +10,10 @@
   width: 375px;
 }
 
+.profile-page .about-input {
+  height: 100%;
+}
+
 .profile-page .i-os-status-bar-with-notch {
   align-items: flex-start;
   background-color: var(--white);
@@ -307,6 +311,15 @@
   width: 120px;
 }
 
+
+.profile-page .overlap-group1:hover {
+  cursor: pointer;
+}
+
+.profile-page .group-container:hover {
+  cursor: pointer;
+}
+
 .profile-page .mask-group {
   height: 100px;
   width: 120px;
@@ -333,7 +346,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 246px;
+  width: 120px;
 }
 
 .profile-page .overlap-group-1 {
